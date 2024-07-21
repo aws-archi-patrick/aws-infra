@@ -21,3 +21,8 @@ variable "instance_name" {
   type        = string
   default     = "ter_t2_ec2"
 }
+
+variable "vpc_id" {
+  description = "The VPC ID where the security group will be created"
+  type        = string
+}
