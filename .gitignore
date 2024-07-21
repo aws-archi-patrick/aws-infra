@@ -1,0 +1,20 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.backup
+.terraform/
+*.tfplan
+
+# AWS CLI credentials
+.aws/credentials
+.aws/config
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# OS-specific files
+.DS_Store
